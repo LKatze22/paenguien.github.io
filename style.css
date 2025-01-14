@@ -1,0 +1,36 @@
+.menuhp {
+    color:blue;
+}
+.produkte {
+    color:blue;
+}
+.ueber_uns {
+    color: blue;
+    margin-right: 16px;
+}
+.nachhaltigkeit {
+    color:blue;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.copyright {
+   margin-top: auto;
+   background-color: rgb(0, 0, 0, 0.05);
+}
+.img_zutaten{
+background-color: rgb(0, 0, 0, 0.05);
+display:flex;
+margin: 5%;
+}
+.zutaten {
+ justify-content:flex-end;
+ margin-left: 75%;
+}
+.img {
+margin:5%;
+}

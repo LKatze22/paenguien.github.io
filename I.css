@@ -1,0 +1,21 @@
+footer {
+font-size: 0.2px;
+}
+. {
+    color:blue;
+}
+.python {
+    color:blue;
+}
+.hptext {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.menuhp {
+    color: #778899;
+    margin-right: 16px;
+}
+.links {
+    color:blue;
+}

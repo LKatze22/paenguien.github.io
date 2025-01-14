@@ -1,0 +1,121 @@
+.ueber_uns {
+    color:blue;
+}
+.nachhaltigkeit {
+    color:blue;
+}
+.hptext {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.menuhp {
+    color: #778899;
+    margin-right: 16px;
+}
+.produkte {
+    color:blue;
+}
+.versteckterbutton{
+    background: transparent;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 20px;
+    border: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 20px;
+
+}
+.beispieltext {
+width: 90%;
+margin-left: 5%;
+height: 125px;
+background-color: rgb(0, 0, 0, 0.05);;
+display: flex;
+justify-content:center;
+align-items: center;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+
+footer {
+ display:flex;
+    justify-content:center;
+    align-items: flex-end;
+    cursor: default;
+}
+.versteckterbutton:hover {
+transition: all 0.0s ease-in-out;
+    transform: scale(0.0);
+
+}
+
+h2 {
+margin-left: 1%;
+text-align: center;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.copyright {
+   margin-top: auto;
+   background-color: rgb(0, 0, 0, 0.05);
+}
+
+.rezensionen_schreiben {
+
+margin-top:3%;
+text-align:center;
+}
+.input_rezensionen {
+ background-color: rgb(0, 0, 0, 0.05);
+ border: none;
+transition: transform 0.3s ease;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ font-family:"Gowun Dodum", sans-serif;
+  text-align: center;
+  border-radius: 8px;
+}
+.input_rezensionen:hover {
+transform: scale(1.1);
+}
+
+#submitButton {
+background-color:#04B404;
+color:white;
+border: 1px solid grey ;
+border-radius: 5px;
+}
+
+.nichtsichbar {
+color: rgb(0, 0, 0, 0.05);
+
+}
+.label {
+align-items: center;
+}
+
+.sterne {
+    margin-bottom: 1%;
+    
+}
+
+.stern {
+    background-color: rgb(0, 0, 0, 0.05) ;
+    border-radius: 20%;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.stern:hover {
+    transform: scale(1.2);
+}

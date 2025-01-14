@@ -1,0 +1,82 @@
+.ueber_uns {
+    color:blue;
+}
+.nachhaltigkeit {
+    color:blue;
+}
+.hptext {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.menuhp {
+    color:blue;
+}
+.produkte {
+    color: #778899;
+    margin-right: 16px;
+}
+
+.dunkler_schokoladen_riegel_img,
+.weißer_schokoladen_riegel_img,
+.heller_schokoladen_riegel_img {
+    width: 15%;
+    height: 15%;
+    margin-left: 5%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.dunkler_schokoladen_riegel_img:hover,
+.weißer_schokoladen_riegel_img:hover,
+.heller_schokoladen_riegel_img:hover {
+    transform: scale(1.1);
+}
+
+.normalerriegel a {
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.copyright {
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: auto;
+    font-size: 14px;
+    flex-shrink: 0;
+    margin-bottom: 0px;
+}
+
+.weitere_produkte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-top: 5%;
+    margin-left:45% ;
+    border-radius: 8px;
+    border: none;
+    font-size: large;
+    color: blue;
+    transition: transform 0.4s ease-in-out;
+}
+
+
+.weitere_produkte:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+
+
+
+

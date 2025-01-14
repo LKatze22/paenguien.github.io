@@ -1,0 +1,60 @@
+.ueber_uns {
+   color:blue;
+}
+.nachhaltigkeit {
+   color: #778899;
+    margin-right: 16px;
+}
+.hptext {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.menuhp {
+    color:blue;
+}
+.produkte {
+    color:blue;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.copyright {
+   margin-top: auto;
+   background-color: rgb(0, 0, 0, 0.05);
+}
+
+.beispieltext {
+    width: 90%;
+    margin-left: 5%;
+    height: 125px;
+    background-color: rgb(0, 0, 0, 0.05);;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    }
+
+    .solarzellen {
+        display: flex;
+        width: 90%;
+        margin-left: 5%;
+        height: 125px; 
+        background-color: rgb(0, 0, 0, 0.05) ;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .solarzellen_text {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .solarzellen_img {
+        height: 100%;
+        margin-left: 1%;
+    }
